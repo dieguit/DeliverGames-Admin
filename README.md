@@ -19,4 +19,4 @@ Now we can start everything with docker-compose
 ```{r, engine='bash', count_lines}
 $ docker-compose up -d
 ```
-You should no have a node server running on http://127.0.0.1:3000 
+You should now have a node server running on http://127.0.0.1:3000 
