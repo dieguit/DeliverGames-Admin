@@ -1,7 +1,7 @@
 # DeliverGames-Admin
 Administration tool for Deliver Games
 
-# To run:
+## To run:
 Check for docker and docker-compose
 ```{r, engine='bash', count_lines}
 $ docker -v
@@ -19,4 +19,9 @@ Now we can start everything with docker-compose
 ```{r, engine='bash', count_lines}
 $ docker-compose up -d
 ```
-You should now have a node server running on http://127.0.0.1:3000 
+You should now have:
+* Node server running on http://127.0.0.1:3000 
+
+Upcoming next:
+* Web server (probably nginx) to serve static files and an Angular4 or Vue.js app.
+* DB server (probably mysql, mongo is in discussion)
