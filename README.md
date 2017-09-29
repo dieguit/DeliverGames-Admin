@@ -23,5 +23,5 @@ You should now have:
 * Node server running on http://127.0.0.1:3000 
 
 Upcoming next:
-* Web server (probably nginx) to serve static files and an Angular4 or Vue.js app.
-* DB server (probably mysql, mongo is in discussion)
+* Web server (probably nginx) to serve static files and an Angular4 / react / Vue.js app.
+* DB server (probably mysql, mongo is in discussion.. graphql is starting to gain ground)
