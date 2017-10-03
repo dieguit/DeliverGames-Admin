@@ -16,6 +16,8 @@ services:
       - MONGO_DATA_DIR=/data/db
       - MONGO_LOG_DIR=/dev/null
     volumes:
-      - ./data/db:/data/db
+      - mongodata:/data/db
     ports:
         - 27017:27017
+volumes:
+  mongodata:
