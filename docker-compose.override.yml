@@ -1,7 +1,7 @@
 version: '2'
 services:
   api:
-    command: npm run production
+    command: "npm run production"
     ports:
       - "8000:8000"
     environment:
