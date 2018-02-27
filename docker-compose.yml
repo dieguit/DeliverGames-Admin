@@ -4,22 +4,9 @@ services:
     restart: always
     build: ./DeliverGames-api/
     volumes:
-      - ./DeliverGames-api/:/app/
-      - /app/node_modules
+      - ./DeliverGames-api/:/api/
+      - /api/node_modules
     command: npm start
     ports:
-      - "3000:3000"
-    links:
-      - mongo
-  mongo:
-    restart: always
-    image: mongo
-    environment:
-      - MONGO_DATA_DIR=/data/db
-      - MONGO_LOG_DIR=/dev/null
-    volumes:
-      - mongodata:/data/db
-    ports:
-        - 27017:27017
-volumes:
-  mongodata:
+      - "8000:8000"
+    network_mode: "host"
