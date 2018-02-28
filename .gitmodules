@@ -1,3 +1,6 @@
 [submodule "DeliverGames-api"]
 	path = DeliverGames-api
 	url = git@github.com:dieguit/DeliverGames-api.git
+[submodule "DeliverGames-dashboard"]
+	path = DeliverGames-dashboard
+	url = git@github.com:dieguit/DeliverGames-dashboard.git
