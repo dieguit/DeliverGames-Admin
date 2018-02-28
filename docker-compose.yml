@@ -1,7 +1,6 @@
 version: '2'
 services:
   api:
-    restart: always
     build: ./DeliverGames-api/
     volumes:
       - ./DeliverGames-api/:/api/
