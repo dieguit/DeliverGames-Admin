@@ -1,5 +1,5 @@
 # DeliverGames-admin
-Administration tool for Deliver Games. It will provide an environment for the API (with database), server and dashboard app.
+Administration tool for Deliver Games. It will provide an environment for the API server and dashboard app.
 
 ## To run / develop:
 Check for docker and docker-compose
